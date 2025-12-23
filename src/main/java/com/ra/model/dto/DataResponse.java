@@ -7,7 +7,8 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
-public class LoginRequestDTO {
-    private String username;
-    private String password;
+public class DataResponse {
+    private int httpStatusCode;
+    private String message;
+
 }

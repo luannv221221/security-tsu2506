@@ -1,4 +1,4 @@
-package com.ra.model.dto;
+package com.ra.model.dto.user;
 
 import com.ra.model.entity.Role;
 import lombok.*;

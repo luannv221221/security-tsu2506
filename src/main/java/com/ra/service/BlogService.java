@@ -8,4 +8,6 @@ import org.springframework.data.domain.Pageable;
 public interface BlogService {
     Page<BlogResponseDTO> findAll(Pageable pageable);
     BlogResponseDTO save(BlogRequestDTO blogDTO);
+    Page<BlogResponseDTO> searchBlogByTitleOrContent( String keyword,Pageable pageable);
+
 }
